@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Estydemo | RoR</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<a href="/pages/about"> About US </a>
+<a href="/pages/contact"> Contact me </a>
+
+<%= yield %>
+
+<p>copyrifht 2001, rigistered!</p>
+</body>
+</html>
